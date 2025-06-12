@@ -1,6 +1,6 @@
 - name: basic
   hosts: local
-  become: true
+  become: false
   tasks:
     - name: server
       debug:
