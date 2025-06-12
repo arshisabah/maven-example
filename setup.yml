@@ -1,0 +1,7 @@
+- name: basic
+  hosts: local
+  become: true
+  tasks:
+    - name: server
+      debug:
+        msg: "Welcome to ansible"
